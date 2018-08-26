@@ -38,7 +38,7 @@ var Utils;
         '1': 'Boishakh',
         '2': 'Jaishtha',
         '3': 'Ashar',
-        '4': 'Shaban',
+        '4': 'Shraban',
         '5': 'Bhadra',
         '6': 'Ashwin',
         '7': 'Kartik',

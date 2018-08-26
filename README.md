@@ -19,7 +19,7 @@ banglaTarikh.format('DDT') // ০১, ০২, ..., ৩১
 banglaTarikh.format('DTS') // ১লা, ২রা, ..., ৩১শে
 banglaTarikh.format('DT') // ১, ২, ..., ৩১
 banglaTarikh.format('DD') // 01, 02, ..., 31
-banglaTarikh.format('DT') // 1, 2, ..., 31
+banglaTarikh.format('D') // 1, 2, ..., 31
 ```
 #### Month
 ```js
@@ -33,7 +33,7 @@ banglaTarikh.format('M') // 1, 2, ..., 12
 #### Year
 ```js
 banglaTarikh.format('YYYY') // 1425
-banglaTarikh.format('YYYT') // ১৪২৫ 
+banglaTarikh.format('YYYYT') // ১৪২৫ 
 ```
 ## Combine as you like
 ```js
