@@ -111,7 +111,7 @@ export module Utils {
 		'28': 'আটাশে',
 		'29': 'ঊনত্রিশে',
 		'30': 'ত্রিশে',
-		'31': 'একত্রিশে' 
+		'31': 'একত্রিশে'
 	}
 
 	export const daySuffix: any = {
@@ -145,7 +145,7 @@ export module Utils {
 		'28': 'শে',
 		'29': 'শে',
 		'30': 'শে',
-		'31': 'শে' 
+		'31': 'শে'
 	}
 
 	export const numberOfDaysInBanglaCalender: Array<number> = [31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 30, 30];
@@ -155,12 +155,9 @@ export module Utils {
 	 * @param data numeric values in string format
 	 */
 	export function getBanglaDigit(data: string | number): string {
-		return data
-			.toString()
-			.split('')
-			.map(function (item: string): string {
-				return banglaNumber[item];
-			}).join('');
+		return data.toString().replace(/\d/g, function (match: string) {
+			return banglaNumber[match];
+		});
 	}
 
 	/**

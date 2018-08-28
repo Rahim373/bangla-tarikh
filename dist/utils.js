@@ -151,12 +151,9 @@ var Utils;
      * @param data numeric values in string format
      */
     function getBanglaDigit(data) {
-        return data
-            .toString()
-            .split('')
-            .map(function (item) {
-            return Utils.banglaNumber[item];
-        }).join('');
+        return data.toString().replace(/\d/g, function (match) {
+            return Utils.banglaNumber[match];
+        });
     }
     Utils.getBanglaDigit = getBanglaDigit;
     /**

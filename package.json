@@ -1,6 +1,6 @@
 {
 	"name": "bangla-tarikh",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "A npm library for bangla date in Bangladesh",
 	"main": "dist/index.js",
 	"author": "Abdur Rahim",
