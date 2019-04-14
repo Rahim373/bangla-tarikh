@@ -1,5 +1,5 @@
-# Bangla Tarikh
-**bangla-tarikh** is an npm package that gives dates according to [Bengali calendar](https://en.wikipedia.org/wiki/Bengali_calendars).
+# Bangla Tarikh (Bangladesh)
+**bangla-tarikh** is an npm package that gives dates only for the Bangladesh according to [Bengali calendar](https://en.wikipedia.org/wiki/Bengali_calendars).
 
 ## Install
     npm install bangla-tarikh --save
